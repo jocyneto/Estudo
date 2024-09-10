@@ -1,5 +1,7 @@
 import "./App.css";
 import Barcos from "./assets/barcos.jpg";
+import ListRender from "./components/ListRender";
+import ManageData from "./components/ManageData";
 
 function App() {
   return (
@@ -11,6 +13,9 @@ function App() {
       </div>
       {/* imagem no assets */}
       <img src={Barcos} alt="imagem de barcos" />
+
+      <ManageData />
+      <ListRender />
     </>
   );
 }
